@@ -1,0 +1,156 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5px 0 30px;
+  height: 55px;
+}
+.yt-logo{
+  width: 120px;
+}
+
+.yt-search{
+  position: relative;
+  align-items: center;
+  border-radius: 2px 0 0 2px;
+  padding: 2px 6px;
+  margin-left: 34px;
+  flex: 1;
+  flex-basis: 1e-9px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.ico{
+  width: 40px;
+}
+
+.yt-search input{
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+  border: 1px solid #d3d3d3;
+  border-radius: 1px;
+  box-shadow: inset 0 1px 2px #f8f8f8;
+  color: #f8f8f8;
+}
+
+.yt-search input:focus {
+  border: 1px solid #f8f8f8;
+}
+
+.yt-search button{
+  padding: 10px 20px;
+  margin: 0;
+  border: 1px solid #d3d3d3;
+  cursor: pointer;
+}
+
+.yt-search-form{
+  width: 700px;
+  height: 40px;
+  position: relative;
+  flex: 1;
+  flex-basis: 1e-9px;
+  display: flex;
+  flex-direction: row;
+}
+
+.mic-icon{
+  background-color: #f8f8f8;
+  width: 40px;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 50%;
+}
+
+.menu-item{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+::placeholder{
+  font-size: 17px;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#primary{
+  width: 65%;
+}
+
+.yt-title{
+  line-height: 2.6rem;
+  font-weight: 400;
+  max-height: 5.2rem;
+  overflow: hidden;
+}
+
+.yt-video-icons{
+  display: flex;
+  justify-content: space-between;
+}
+.yt-video-icons p{
+  font-size: 1.1rem;
+  line-height: 2rem;
+  font-weight: 400;
+}
+
+.yt-vd-icons{
+  padding: 10px;
+}
+
+#secondary{
+  width: 30%;
+}
+
+.yt-suggested-videos{
+  display: flex;
+  margin-bottom: 10px;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.yt-suggested-videos img{
+  width: 168px;
+  height: 94px;
+}
+
+.yt-suggested-videos .ytv-title{
+ font-size: 1rem;
+ margin-bottom: 5px;
+}
+
+.yt-suggested-videos .ytv-account{
+ font-size: 13px;
+ margin-bottom: 2px;
+}
+
+.yt-suggested-videos .ytv-desc{
+ font-size: 13px;
+ margin-bottom: 5px;
+}
+
+.popular-video-btn{
+  padding: 0px 15px;
+  margin: 5px;
+  height: 32px;
+  border-radius: 16px;
+  border: 1px solid #d3d3d3;
+}
+.active{
+  background-color: black;
+  color: #d3d3d3;
+}
